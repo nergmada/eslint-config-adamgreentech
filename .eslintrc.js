@@ -1,6 +1,6 @@
 const MAX_CONDITIONAL_BRANCHES = 3;
 const MAX_BLOCK_DEPTH = 3;
-const MAX_LINES_PER_FUNCTION = 10;
+const MAX_LINES_PER_FUNCTION = 20;
 
 module.exports = {
     root: true,
