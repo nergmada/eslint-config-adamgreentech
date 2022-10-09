@@ -157,7 +157,7 @@ module.exports = {
         // Basically new line if there's a chain of 3 or more calls
         "newline-per-chained-call": "error",
         // Always new line object declarations
-        "object-curly-newline": ["error", "always"],
+        "object-curly-newline": ["error", "consistent"],
         // Don't catch just to throw, just throw through
         // Might be the case that handling needed to be implemented that wasn't
         "no-useless-catch": "warn",
