@@ -170,6 +170,7 @@ module.exports = {
                 },
             },
         ],
+		semi: ["error", "always"],
         // Don't catch just to throw, just throw through
         // Might be the case that handling needed to be implemented that wasn't
         "no-useless-catch": "warn",
@@ -191,7 +192,5 @@ module.exports = {
         "no-warning-comments": "warn",
         // Always use triple equals
         eqeqeq: "error",
-
-        // TODO: Camelcase?
     },
 };
