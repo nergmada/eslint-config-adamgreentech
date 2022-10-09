@@ -4,7 +4,10 @@ const MAX_LINES_PER_FUNCTION = 20;
 
 module.exports = {
     root: true,
-    extends: ["eslint:recommended"],
+    extends: [
+		"eslint:recommended",
+		"plugin:functional/external-recommended"
+	],
     parserOptions: {
         sourceType: "module",
         ecmaVersion: 2020,
