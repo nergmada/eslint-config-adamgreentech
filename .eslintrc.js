@@ -4,6 +4,7 @@ const MAX_LINES_PER_FUNCTION = 20;
 
 module.exports = {
     root: true,
+	plugins: ["functional"],
     extends: [
 		"eslint:recommended",
 		"plugin:functional/external-recommended"
