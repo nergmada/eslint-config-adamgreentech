@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-adamgreentech",
+  "version": "1.0.0",
+  "description": "A custom ESLint configuration for JS projects at AdamGreen.Tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.20.0"
+  }
+}
