@@ -146,8 +146,6 @@ module.exports = {
         "func-call-spacing": ["error", "never"],
         // Consistency is key
         "function-call-argument-newline": ["error", "consistent"],
-        // If it's not short enough to fit, it's not short enough
-        "implicit-arrow-linebreak": ["error", "beside"],
         // spacing for keys should always be hello: "world"
         "key-spacing": "error",
         // Lines should only be 80 characters long
