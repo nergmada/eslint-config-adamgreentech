@@ -179,7 +179,6 @@ module.exports = {
         ],
 		semi: ["error", "always"],
 		"no-trailing-spaces": "error",
-		"object-curly-spacing": ["error", "never"],
         // Don't catch just to throw, just throw through
         // Might be the case that handling needed to be implemented that wasn't
         "no-useless-catch": "warn",
