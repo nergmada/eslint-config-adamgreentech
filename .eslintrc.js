@@ -163,8 +163,6 @@ module.exports = {
         }],
         // One statement per line
         "max-statements-per-line": "error",
-        // Basically new line if there's a chain of 3 or more calls
-        "newline-per-chained-call": "error",
         // Always new line object declarations
         "object-curly-newline": [
             "error",
