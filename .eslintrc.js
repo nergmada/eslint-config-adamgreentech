@@ -131,8 +131,6 @@ module.exports = {
         // Arrow functions should always use parens
         "arrow-parens": ["error", "always"],
         "arrow-spacing": "error",
-        // braces should start on the line they're conditioned/dependent on
-        "brace-style": ["error", "stroustrup"],
         // Always use Oxford commas
         "comma-dangle": ["error", "only-multiline"],
         "comma-spacing": "error",
