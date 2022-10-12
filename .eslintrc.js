@@ -128,8 +128,8 @@ module.exports = {
         "require-yield": "error",
         // Bracket should never be spaced e.g. [ 1, 2 ] should be [1, 2]
         "array-bracket-spacing": ["error", "never"],
-        // Arrow functions should only use parenthesis as needed
-        "arrow-parens": ["error", "as-needed"],
+        // Arrow functions should always use parens
+        "arrow-parens": ["error", "always"],
         "arrow-spacing": "error",
         // braces should start on the line they're conditioned/dependent on
         "brace-style": ["error", "stroustrup"],
