@@ -153,7 +153,14 @@ module.exports = {
         // spacing for keys should always be hello: "world"
         "key-spacing": "error",
         // Lines should only be 80 characters long
-        "max-len": "error",
+        "max-len": ["error", {
+            code: 100,
+            comments: 120,
+            ignoreUrls: true,
+            ignoreStrings: true,
+            ignoreTemplateLiterals: true,
+            ignoreRegExpLiterals: true
+        }],
         // One statement per line
         "max-statements-per-line": "error",
         // Basically new line if there's a chain of 3 or more calls
